@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+@font-face {
+    font-family: Cursor;
+    src: url(./fonts/CursorGothic_Regular-s.p.a361088d.ttf);
+}
+:root{
+    --primary-background:#15120a;
+    --text-color:#EDECEC;
+    --font:Cursor;
+}
+
+body {
+    background-color: var(--primary-background);
+    color: var(--text-color);
+    
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px  ;
+}
+
+
+.nav-link a{
+      color: var(--text-color);
+  text-decoration: none;
+  margin-left: 24px;
+  font-size: 18px;
+
+}
+.nav-link a:hover{
+    /* background: rgb(208, 204, 204); */
+    color: rgb(208, 204, 204);
+}
+
+.sign-in{
+    display: inline-block;
+    padding: 6px 16px;
+    text-decoration: none;
+    color: var(--text-color);
+    background: transparent;
+    border: 0.5px solid;
+    border-radius: 20px;
+    margin-right: 16px;
+    
+}
+
+.download{
+    padding: 6px 24px;
+    text-decoration: none;
+    color: var(--primary-background);
+    background: var(--text-color);
+    border-radius: 16px;
+    
+}
+.download:hover{
+    background: rgb(208, 204, 204);
+}
+
