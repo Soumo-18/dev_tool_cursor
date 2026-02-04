@@ -18,6 +18,18 @@ body {
     color: var(--text-color);
     
 }
+.logo{
+    display: flex;
+}
+.logo-1{
+    width: 30px;  
+
+}
+.cur-img{
+    width: 95px;
+    height: 16px;
+    margin-top: 8px;
+}
 .logo:hover{
     cursor: pointer;
 }
@@ -26,7 +38,10 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 70px  ;
+    /* margin:10px ; */
+    padding: 10px 80px  ;
+    /* background-color: red; */
+   
 }
 
 
@@ -50,7 +65,7 @@ nav{
     background: transparent;
     border: 0.5px solid;
     border-radius: 20px;
-    margin-right: 16px;
+    margin-right: 5px;
     
 }
 
@@ -66,3 +81,89 @@ nav{
     background: rgb(208, 204, 204);
 }
 
+
+main{
+    width: 75%;
+    margin: 20px auto;
+}
+.landing h2{
+    margin-top: 120px;
+    font-size: 20px;
+    font-weight: 450;
+    line-height: 1.4;
+}
+
+.dwn-btn{
+    color: var(--primary-background);
+    background: var(--text-color);
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    margin: 20px 0px;
+}
+
+.landing-page{
+    position: relative;
+}
+.lg-bg{
+    position: relative;
+    width: 100%;
+    margin: 40px 8px;
+    border-radius: 6px;
+    height: 80%
+}
+.lg-code{
+     position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   width: 80%;
+   border-radius: 4px;
+}
+
+
+/* .trust h4{
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.trust-company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+}
+.trust-company img{
+    flex:1;
+    box-sizing: content-box;
+    padding: 35px;
+    margin-top: 30px;
+     background: rgb(27,25,19);
+     
+} */
+
+.trust h4{
+    text-align: center;
+}
+
+.trust-company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap:wrap; */
+    gap: 10px;
+    margin-top:30px;
+    width: 100%;
+
+}
+.trust-company img{
+    background-color: rgb(27, 25,19);
+    width: 140px;
+    height: 110px;
+    padding: 20px 30px;
+    object-fit: contain;
+    border-radius: 10px;
+    
+}
